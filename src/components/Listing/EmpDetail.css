@@ -1,0 +1,47 @@
+.empdetail{
+    width: 40% !important;
+    margin: 20px;
+    margin: auto;
+    margin-top: 20px;
+    background-image: url('https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAyL3Zwcm9qZWN0b2xkMS10YW5nLTE0NTAtam9iMTcyMi1wLnBuZw.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 1px 5px 1px;
+}
+
+.empdetail label{
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(150, 220, 150);
+    text-align: start;
+}
+.empdetail label:hover{
+    transform: scale(1.1);
+}
+.empdetail span{
+    background-color: rgb(204, 107, 107);
+    border-radius: 10px;
+    min-width: 100px;
+    padding-left: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.detailbtncontainer{
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    width: 40%;
+    margin: auto;
+}
+.detailbtncontainer button{
+    margin: 10px;
+}
+.detailbtncontainer button:hover{
+    transform: scale(1.1);
+}
